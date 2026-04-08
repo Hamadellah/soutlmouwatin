@@ -1,0 +1,42 @@
+export const CATEGORIES = [
+  {
+    id: "clean",
+    icon: "🧹",
+    label: "النظافة",
+    labelFr: "Propreté",
+    color: "#16a34a",
+    sub: ["زبل فالزنقة", "حاويات عامرين", "بلايص خاصها تنظيف"],
+  },
+  {
+    id: "road",
+    icon: "🚦",
+    label: "الطرق",
+    labelFr: "SafeRoad",
+    color: "#2563eb",
+    sub: ["حفرة فالطريق", "ضو إشارة مقطوع", "panneaux مكسورين"],
+  },
+  {
+    id: "light",
+    icon: "💡",
+    label: "الإنارة",
+    labelFr: "Éclairage",
+    color: "#d97706",
+    sub: ["lampadaire طافي", "مشاكل فالضو"],
+  },
+  {
+    id: "env",
+    icon: "🌳",
+    label: "البيئة",
+    labelFr: "Environnement",
+    color: "#059669",
+    sub: ["تلوث", "أشجار مقطوعة", "حريق صغير"],
+  },
+  {
+    id: "service",
+    icon: "🏥",
+    label: "الخدمات",
+    labelFr: "Services",
+    color: "#7c3aed",
+    sub: ["صيدلية مسدودة", "مستشفى فيه مشكل", "مرافق عمومية خاسرة"],
+  },
+];
