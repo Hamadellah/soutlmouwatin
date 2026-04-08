@@ -38,3 +38,4 @@ function HomeScreen({ reports, onVote, onReport }) {
     </div>
   );
 }
+export default HomeScreen

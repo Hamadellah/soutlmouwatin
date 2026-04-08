@@ -64,3 +64,4 @@ function ProfileScreen({ points, reports }) {
     </div>
   );
 }
+export default ProfileScreen
