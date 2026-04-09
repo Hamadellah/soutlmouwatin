@@ -1,3 +1,5 @@
+import ReportCard from "../components/ReportCard";
+
 function FeedScreen({ reports, onVote, filterStatus, setFilterStatus }) {
   const filtered = filterStatus === "all" ? reports : reports.filter((r) => r.status === filterStatus);
   return (

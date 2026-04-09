@@ -1,4 +1,7 @@
+
+import { CATEGORIES } from './../data/categories';
 function DashScreen({ reports }) {
+
   const total = reports.length;
   const done = reports.filter((r) => r.status === "done").length;
   const wip = reports.filter((r) => r.status === "wip").length;

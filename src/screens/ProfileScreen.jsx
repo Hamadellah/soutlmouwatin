@@ -1,3 +1,6 @@
+import { getCat } from "../utils/helpers";
+import StatusBadge from './../components/StatusBadge';
+
 function ProfileScreen({ points, reports }) {
   const mine = reports.filter((r) => r.mine);
   const BADGES = [
